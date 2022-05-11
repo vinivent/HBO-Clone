@@ -1,0 +1,123 @@
+@font-face {
+    font-family: BoldGilroy;
+    src: url(font/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family: GilroyLight;
+    src: url(font/Gilroy-Light.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+li, a {
+    font-family: GilroyLight, sans-serif;
+    font-size: 11px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+}
+body {
+    background-color: #030328;  
+   }
+.navbar {
+    z-index: 999;
+    height: 5vh;
+    width: 100%;    
+    font-family: BoldGilroy, sans-serif;
+    background: #02021B;
+}
+.navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.navbar .op li {
+    list-style: none;
+    margin-left: 1470px;
+    margin-top: -3px;
+}
+
+button {    
+    font-family: GilroyLight, sans-serif;
+    font-weight: 1000;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 9px 25px;
+    background-color: rgba(181, 53, 246, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: -25px;
+}
+
+/* home  section*/
+
+.home {
+    font-family: GilroyLight, sans-serif;
+    font-size: 11px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.home .hero-content {
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+}
+.hero-content h4 {
+    font-size: 20px;
+    line-height: 35px;
+}
+.hero-content h1 {
+    margin-top: 15px;
+    font-family: BoldGilroy, sans-serif;
+    font-size: 45px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.hero-content p span{
+    font-family: GilroyLight, sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+
+}
+
+button2 {    
+    font-family: GilroyLight, sans-serif;
+    font-weight: 1000;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 9px 25px;
+    background-color: rgba(134, 42  , 223, 1);
+    border: 2px solid rgba(134, 42  , 223, 1);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: -25px;
+    transition: all 0.3s ease;
+}
+
+button2:hover {  
+    background: none;
+}
+
+.hero-content .textinho {
+    margin-top: 10px;
+    font-family: GilroyLight, sans-serif;
+    font-size: 10px;
+}
